@@ -1,3 +1,14 @@
+html {
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+
 a {
   color: red;
   text-decoration: none;
@@ -11,12 +22,53 @@ h2 {
   font-family: arial;
 }
 
-div {
+
+
+.container {
   display: flex;
   flex-direction: column;
-  width: 95vw;
-  height: 95vh;
+  width: 2rem;
   justify-content: center;
   align-items: center;
   color: blue;
 }
+
+.main_linkedin-link {
+  color: blue;
+}
+
+
+
+
+
+
+article {
+  color: red;
+  background: purple;
+}
+
+.container {
+  color: yellow;
+}
+
+#most-important-container {
+  color: pink;
+}
+
+article {
+  color: blue
+}
+
+
+
+
+
+
+
+types selectors (tag class id inline)
+
+absolute units: px (pt alleen voor print)
+relatieve units:
+  - % (relatieve aan parent)
+  - vw vh (relatief aan viewport)
+  - em (parent) rem (root) (relatief aan typografie)
