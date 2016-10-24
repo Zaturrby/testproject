@@ -1,0 +1,22 @@
+a {
+  color: red;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+h2 {
+  font-family: arial;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  width: 95vw;
+  height: 95vh;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+}
